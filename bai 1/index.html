@@ -1,7 +1,7 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Bai 1</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -17,11 +17,21 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="container">
-    <h1>Lương nhân viên 1h</h1>
-    <input type="text" class="form-control" id="tienluong1h" />
+  <body class="container mt-5">
+    <h1>Lương nhân viên 1h (usd)</h1>
+    <input
+      type="number"
+      class="form-control"
+      id="tienluong1h"
+      placeholder="Tiền Lương 1h"
+    />
     <h1>Số giờ làm</h1>
-    <input type="text" class="form-control" id="sogiolam" />
+    <input
+      type="number"
+      class="form-control"
+      id="sogiolam"
+      placeholder="Số giờ đã làm"
+    />
     <button onclick="tinhTien()" class="btn btn-primary mt-3">Tính tiền</button>
     <div id="result"></div>
     <!-- BS5 -->
