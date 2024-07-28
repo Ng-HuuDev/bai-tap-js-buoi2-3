@@ -1,11 +1,11 @@
 function tinhTrungBinh() {
-  soT1Tag = document.getElementById("sothuc1");
+  var soT1Tag = document.getElementById("sothuc1");
   // console.log("🚀 ~ tinhTrungBinh ~ soT1Tag:", sothuc1.value);
 
-  soT2Tag = document.getElementById("sothuc2");
-  soT3Tag = document.getElementById("sothuc3");
-  soT4Tag = document.getElementById("sothuc4");
-  soT5Tag = document.getElementById("sothuc5");
+  var soT2Tag = document.getElementById("sothuc2");
+  var soT3Tag = document.getElementById("sothuc3");
+  var soT4Tag = document.getElementById("sothuc4");
+  var soT5Tag = document.getElementById("sothuc5");
 
   // tinh trung binh
   var soTrungBinhTag =
